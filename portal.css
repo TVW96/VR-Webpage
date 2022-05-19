@@ -3,14 +3,14 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 
 html {
-    background-color: lightgray;
+    background-color: blue;
     font-family: 'Quicksand', sans-serif;
     font-size: 0.95em;
     line-height: 1.5em;
 }
 
 ::selection {
-    color: #000; 
+    color: red; 
     background: #ff0;
 }
 
@@ -18,12 +18,12 @@ h1 {
     font-weight: normal;
     font-family:monaco;
     margin: auto;
-    background: blanchedalmond;
+    background: yellow;
     line-height: 2.5em;
 }
 
 main.wrapper {
-    background-color: blanchedalmond;
+    background-color: yellow;
     overflow: auto;
 }
 
