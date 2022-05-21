@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavComponents</title>
+
+    <!--  Bootstrap link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body style="background-color:black">
+<!-- Calling Navbar function to code -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light" >
+        <!-- Fluid is full width of the screen, md is hte breaking point of the pixel size. -->
+        <div class="container-fluid">
+            <!-- Branding -->
+            <a class="navbar-brand" href="VRwebpage.html">
+                <img src="https://i.pinimg.com/originals/47/71/24/477124d4dfd99dfd8688e20b651f4c0c.png"
+                alt="" width="30" height="24" class="d-inline-block align-text-top">
+                VR Webpage
+            </a>
+            <!-- Hamburger Menu: TYPE OTHER COMPONENTS ABOUT THE CLASS REFERENCE -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- calling Collapse function appended to navbar -->
+            <div class="collapse navbar-collapse" id="navbar1">
+                <!-- adjusting navbar with d-flex margin end-auto  -->
+                <ul class="navbar-nav d-flex me-auto">
+                    <!-- Navbar item's -->
+                    <li class="nav-item active">
+                        <a class="nav-link" href="VRwebpage.html">Home</a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="1234">Top Games & Gaming Platforms</a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="123">State of the art Technologies</a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="1235">Motion Simulators</a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="1236">The 4D Experience</a>
+                    </li>
+
+                    <!-- Dropdown menu  -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown">More Games</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="https://www.espn.com" class="dropdown-item">FirstDropdown</a>
+                            </li>
+
+                            <li>
+                                <a href="https://www.espn.com" class="dropdown-item">SecondDropdown</a>
+                            </li>
+
+                            <li>
+                                <a href="https://www.espn.com" class="dropdown-item">ThirdDropdown</a>
+                            </li>
+
+                            <li>
+                                <a href="https://www.espn.com" class="dropdown-item">FourthDropdown</a>
+                            </li>
+
+
+                        </ul>
+                    </li>
+                </ul>
+                <!-- D-flex the container so it moves freely -->
+                <form class="d-flex" action="/testing">
+
+                    <input class="form-control me-2" type="search" placeholder="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+
+            </div>
+        </div>
+    </nav>  
+    
+    <section>
+        <!-- TITLE -->
+        <div class="container card">
+            <h1 class="display-1 text-center text-bold">Top Games</h1>
+            <hr>
+
+            <!-- Game #1 -->
+            <h1 class="dislpay-5 ">#1 - The Elder Scrolls V: Skyrim VR</h1>
+            <img src="https://www.cnet.com/a/img/resize/e49c707d1dd77d9656026048efad5519e31c441e/hub/2018/11/30/9b161b11-62a2-4db5-a52d-401695d0ec46/skyrim-vr-screenshot-02-us-12jun17.jpg?auto=webp&width=1092">
+            <p> Playable on Steam, HTC Vive, Oculus Rift, PSVR
+
+                There are many ways to play Skyrim, but experiencing it all in VR is more entertaining than you might think. The entire game's here, but now you can look around to take in the epic views, or use your hands to strike out or cast spells. One of the better ports of a game into VR, and it can be played seated, too. </p>
+            <hr> 
+            <!-- Game #2 -->
+            <h1 class="dislpay-4 ">#2 - Rick and Morty: Virtual Rick-Ality </h1>
+            <img src="https://www.cnet.com/a/img/resize/eaff7eb271bb8bdee09821553faae59fac599054/hub/2018/11/30/e2d2ed0e-b4b9-45a8-a47b-21ee56801dd8/rick-and-morty-virtual-rick-ality-screen-01-ps4-us-08dec17.jpg?auto=webp&width=1092">
+            <p> Playable on PSVR, Oculus Rift, Steam/HTC Vive
+
+                It's been available for a while, but there might not be a funnier/weirder game than this perfect VR version of Rick and Morty. It has all the feel of Job Simulator, but infused with even more brilliant transformations of a the surrounding environment. It's like an episode come to life in your face. </p>
+            <hr>
+            <!-- Game #3 -->
+            <h1 class="dislpay-4 "> #3 - Fallout 4 VR </h1>
+            <img src=" https://cdn.mos.cms.futurecdn.net/yPwH39byATDHqZvgAeHQiA-970-80.jpg ">
+            <P> Playable on HTC Vive
+
+                Like with Skyrim and its VR edition, Fallout 4 has gotten the full VR treatment, bringing over the full single-player campaign of Fallout 4 exclusively to HTC Vive headsets on PC. This puts you in a post-apocalyptic version of the area around Boston, where you'll come across various people, monsters and machines trying to survive in this harsh new world as you hunt down a missing member of your family.</P>
+            <hr>
+            <!-- Game #4 -->
+            <h1 class="dislpay-4 "> #4 - Beat Saber </h1>
+            <img src=" https://cdn.mos.cms.futurecdn.net/XDHzYJWhkTEcHemp3P42YG-970-80.jpg ">
+            <P> Playable on Oculus Rift, PS VR, HTC Vive
+
+                Beat Saber is a fast, kinetic rhythm game in which the player slashes color-coded blocks to the beat of music playing in the background, and one of the best VR games for working up a sweat. Using two motion controllers, you'll swipe in the air vertically or horizontally and occasionally hold your controller in a position to rack up points. 
+
+Designed for a seated experience, Beat Saber comes with 10 songs. However, PC players can use a track editor to create their own custom tracks from within the game; with some light modding, they can allow download other users' tracks.</P>
+            <hr>
+            <!-- Game #5 -->
+            <h1 class="dislpay-4 "> #5 - Hitman 3 </h1>
+            <img src=" https://cdn.mos.cms.futurecdn.net/h7HynX8d8w5cZhQ8qYRnub-970-80.jpg.webp ">
+            <P> Playable on PC and PSVR
+
+                If you already bought the third installment of the World of Assasination Trilogy, you can get a free update that will enable VR for it. If you want to blend into Agent 47 just like he blends into a crowd, it's a fun way to try out your favorite missions again.
+
+Be warned though that the PC and PSVR editions of the game are essentially the same, so no matter how much better your gaming PC's hardware is, you won't notice much of a performance difference. Go into the game expecting some rather mediocre graphics and then you'll be able to enjoy sneaking and strangling fully.</P>
+            <hr>
+        <!-- Gaming Platforms -->
+        <h1 class="display-1 text-center text-bold"> VR Gaming Platforms</h1>
+            <hr>
+
+
+
+
+            <h1 class="display-4 text-center">Playstation Lifestyle</h1>
+            <!-- COLOR CLASS BUTTONS WITHING OUR CONTAINER -->
+            <button type="button" class="btn btn-success">GreenColor</button>
+            <button type="button" class="btn btn-warning">YellowColor</button>
+            <button type="button" class="btn btn-primary">BlueColor</button>
+
+            <button class="btn btn-outline-danger">RedButtonOutline</button>
+            <hr>
+            <hr>
+            <!-- TITLE FOR ROW OF BUTTONS -->
+            <h1 class="display-4 text-center">Group Buttons</h1>
+            <!-- CLASS NAME FOR GROUP BUTTONS -->
+            <div class="btn-group">
+                <button class="btn btn-success">Playstation One</button>
+                <button class="btn btn-success">Playstation Two</button>
+                <button class="btn btn-success">Playstation Three</button>
+            </div>
+
+            <hr>
+            <br>
+            <!--  IMAGE WITH TITLE WITHIN OUR COTAINER -->
+            <h1 class="display-4 text-center">Apple AR, VR Headset Rumors: 2022 Release, M1 Chip and More</h1>
+            <img src="https://www.cnet.com/a/img/resize/7153de095635cdb9427aa55ffe1c65b7846ee4fe/2020/05/20/94282eef-32f4-490e-bb26-f3a90d85c054/apple-glasses-airpods-watch.jpg?auto=webp&fit=crop&height=488&width=868">
+
+            <blockquote class="blockquote text-left bg-light">
+                <p class="mb-2">
+                    "Apple has been integrating augmented reality into its devices for years, but a new report from Bloomberg suggests the tech giant will soon make its biggest AR/VR stride yet: producing a mixed-reality headset. In a meeting last week, the company's board of directors observed a demonstration of the headset, according to the report. 
+                    
+                    This could indicate that the long-rumored headset is nearing completion. It lines up with a previous prediction from analyst Ming-Chi Kuo: that Apple's VR/AR headset is arriving in the fourth quarter of 2022 with Wi-Fi 6 and 6E support. Kuo's prediction is corroborated by earlier reports that Apple's headset might be coming in 2022, with smart glasses around 2025, and maybe AR contact lenses after that. 
+                    
+                    Apple could blend AR and VR with two headsets in the near future, leading the way with some sort of high-end AR/VR headset more like an advanced Quest 2, according to Bloomberg's Mark Gurman. Gurman also suggests a focus on gaming, media and communication. In terms of communication, Gurman believes FaceTime using the rumored headset could rely on Memojis and SharePlay, meaning instead of seeing the person you're talking to, you would see a 3D version of their personalized Memoji avatar. 
+                    
+                    And Apple may have large plans for the headset. The company's "goal is to replace the ‌iPhone‌ with AR in 10 years," Kuo explains in a note to investors, seen by MacRumors. The device could be relatively lightweight, about 300-400 grams (roughly 10.5-14 ounces), according to Kuo. That's lighter than Meta's Oculus Quest 2."</p>
+                
+                <!-- Site the Quote -->
+                <footer class="blockquote-footer">Scot Stein/CNET</footer>
+            </blockquote>
+
+
+        </div>
+
+    </section>
+
+
+<!-- Javascript link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
